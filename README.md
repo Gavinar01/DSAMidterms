@@ -77,6 +77,6 @@ A new tab will open in your default web browser, displaying the React logo. Cong
 Screenshot of a successful creation of React App.
 
 ## References:
--**HubSpot**: What is React.js?
--**GeeksforGeeks**: Features of React.js
--**GeeksforGeeks**: How to Install React.js on Windows
+- **HubSpot**: What is React.js?
+- **GeeksforGeeks**: Features of React.js
+- **GeeksforGeeks**: How to Install React.js on Windows
