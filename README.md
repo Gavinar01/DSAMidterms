@@ -21,8 +21,8 @@ In 2011, Facebook sought to create a richer user experience through a more dynam
 Follow these steps to set up React.js on your machine:
 
 ### Step 1: Install Node.js
-Download Node.js: Visit the Node.js download page and download the latest version.
-Install Node.js: Run the installer and click Next until the installation is complete.
+- **Download Node.js**: Visit the Node.js download page and download the latest version.
+- **Install Node.js**: Run the installer and click Next until the installation is complete.
 
 ### Step 2: Verify Node.js Installation
 Open your command prompt (Windows) or terminal (macOS/Linux).
