@@ -63,7 +63,7 @@ npx create-react-app reactfirst
 Note: The app name must consist of only lowercase letters due to npm naming conventions.
 
 ### Step 6: Open the Project in a Code Editor
-Open your project folder in your preferred code editor (e.g., Visual Studio Code).
+Open your project folder in your preferred code editor (e.g., [Visual Studio Code](https://code.visualstudio.com/)).
 In the terminal, navigate to your app's directory:
 ```bash
 cd reactfirst
