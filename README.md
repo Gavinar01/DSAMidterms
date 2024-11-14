@@ -78,5 +78,5 @@ Screenshot of a successful creation of React App.
 
 ## References:
 - **[HubSpot: What is React.js?](https://developers.hubspot.com/blog/intro-to-react-for-hubspot-developers)**
-- **[GeeksforGeeks: Features of React.js]([https://www.geeksforgeeks.org/features-of-react-js/](https://www.geeksforgeeks.org/react/))**
-- **[GeeksforGeeks: How to Install React.js on Windows]([https://www.geeksforgeeks.org/how-to-install-react-js-on-windows/](https://www.geeksforgeeks.org/how-to-install-reactjs-on-windows/)**
+- **[GeeksforGeeks: Features of React.js](https://www.geeksforgeeks.org/react/)**
+- **[GeeksforGeeks: How to Install React.js on Windows](https://www.geeksforgeeks.org/how-to-install-reactjs-on-windows/)**
