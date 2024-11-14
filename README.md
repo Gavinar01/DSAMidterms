@@ -74,7 +74,6 @@ Start the development server by running:
 npm start
 ```
 A new tab will open in your default web browser, displaying the React logo. Congratulations! You are now ready to start building applications with React.
-Screenshot of a successful creation of React App.
 
 ## References:
 - **[HubSpot: What is React.js?](https://developers.hubspot.com/blog/intro-to-react-for-hubspot-developers)**
