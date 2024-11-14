@@ -21,7 +21,7 @@ In 2011, Facebook sought to create a richer user experience through a more dynam
 Follow these steps to set up React.js on your machine:
 
 ### Step 1: Install Node.js
-- **Download Node.js**: Visit the Node.js download page and download the latest version.
+- **Download Node.js**: Visit the [Node.js](https://nodejs.org/en) download page and download the latest version.
 - **Install Node.js**: Run the installer and click Next until the installation is complete.
 
 ### Step 2: Verify Node.js Installation
@@ -63,7 +63,7 @@ npx create-react-app reactfirst
 Note: The app name must consist of only lowercase letters due to npm naming conventions.
 
 ### Step 6: Open the Project in a Code Editor
-Open your project folder in your preferred code editor (e.g., [Visual Studio Code](https://code.visualstudio.com/)).
+Open your project folder in your preferred code editor (e.g., [Visual Studio Code](https://code.visualstudio.com/) ).
 In the terminal, navigate to your app's directory:
 ```bash
 cd reactfirst
