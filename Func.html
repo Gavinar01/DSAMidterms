@@ -1,64 +1,108 @@
-<h1>REACT.JS</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React.js Overview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
 
-<h2>What is React.js?</h2>
-<p>React.js is an open-source JavaScript library created by Facebook in 2011, designed to simplify the process of building interactive user interfaces (UIs).</p>
+    <h1>REACT.JS</h1>
 
-<h3>History</h3>
-<p>In 2011, Facebook sought to create a richer user experience through a more dynamic and responsive user interface. Jordan Walke, a software engineer at Facebook, addressed this need by developing React. This library introduced a systematic approach to building dynamic UIs through reusable components.</p>
+    <h2>What is React.js?</h2>
+    <p>React.js is an open-source JavaScript library created by Facebook in 2011, designed to simplify the process of building interactive user interfaces (UIs).</p>
 
-<h3>Key Features</h3>
-<ul>
-    <li><strong>One-way Data Binding</strong>: Data flows in a single direction—from parent components to child components. Child components cannot send data back to their parents, but they can communicate with them to modify state based on inputs.</li>
-    <li><strong>Optimized Performance</strong>: React uses a virtual DOM to efficiently update only the parts of the UI that have changed, resulting in faster performance, especially in large applications.</li>
-    <li><strong>Extensibility</strong>: React supports various extensions for comprehensive UI development, including mobile app development and server-side rendering. Popular extensions like Flux, Redux, and React Native enhance its capabilities.</li>
-    <li><strong>Component-Based Architecture</strong>: The UI is broken down into reusable components, each encapsulating its own logic and design.</li>
-    <li><strong>Simplicity</strong>: The component-based structure promotes easy understanding, debugging, and maintenance, leading to cleaner code.</li>
-</ul>
+    <h3>History</h3>
+    <p>In 2011, Facebook sought to create a richer user experience through a more dynamic and responsive user interface. Jordan Walke, a software engineer at Facebook, addressed this need by developing React. This library introduced a systematic approach to building dynamic UIs through reusable components.</p>
 
-<h2>How to Install React.js</h2>
-<p>Follow these steps to set up React.js on your machine:</p>
+    <h3>Key Features</h3>
+    <ul>
+        <li><strong>One-way Data Binding</strong>: Data flows in a single direction—from parent components to child components. Child components cannot send data back to their parents, but they can communicate with them to modify state based on inputs.</li>
+        <li><strong>Optimized Performance</strong>: React uses a virtual DOM to efficiently update only the parts of the UI that have changed, resulting in faster performance, especially in large applications.</li>
+        <li><strong>Extensibility</strong>: React supports various extensions for comprehensive UI development, including mobile app development and server-side rendering. Popular extensions like Flux, Redux, and React Native enhance its capabilities.</li>
+        <li><strong>Component-Based Architecture</strong>: The UI is broken down into reusable components, each encapsulating its own logic and design.</li>
+        <li><strong>Simplicity</strong>: The component-based structure promotes easy understanding, debugging, and maintenance, leading to cleaner code.</li>
+    </ul>
 
-<h3>Step 1: Install Node.js</h3>
-<p>Download Node.js: Visit the <a href="https://nodejs.org/" target="_blank">Node.js download page</a> and download the latest version.<br>
-Install Node.js: Run the installer and click Next until the installation is complete.</p>
+    <h2>How to Install React.js</h2>
+    <p>Follow these steps to set up React.js on your machine:</p>
 
-<h3>Step 2: Verify Node.js Installation</h3>
-<p>Open your command prompt (Windows) or terminal (macOS/Linux).<br>
-Type the following command and press Enter:</p>
-<pre><code>node -v</code></pre>
-<p><strong>Note</strong>: You should see the installed version of Node.js displayed in the terminal.</p>
+    <h3>Step 1: Install Node.js</h3>
+    <ul>
+        <li><strong>Download Node.js</strong>: Visit the <a href="https://nodejs.org/en" target="_blank">Node.js</a> download page and download the latest version.</li>
+        <li><strong>Install Node.js</strong>: Run the installer and click Next until the installation is complete.</li>
+    </ul>
 
-<h3>Step 3: Install Create React App (CRA)</h3>
-<p>In the terminal, run the following command to install Create React App globally:</p>
-<pre><code>npm install -g create-react-app</code></pre>
-<p>To verify the installation, run:</p>
-<pre><code>create-react-app --version</code></pre>
-<p>The terminal should display the version of Create React App you installed.</p>
+    <h3>Step 2: Verify Node.js Installation</h3>
+    <p>Open your command prompt (Windows) or terminal (macOS/Linux). Type the following command and press Enter:</p>
+    <pre><code>node -v</code></pre>
+    <p><strong>Note</strong>: You should see the installed version of Node.js displayed in the terminal.</p>
 
-<h3>Step 4: Create a Directory for Your React Projects</h3>
-<p>Create a new folder for your React app:</p>
-<pre><code>mkdir newfolder</code></pre>
-<p><strong>Note</strong>: You can replace newfolder with your preferred folder name.</p>
-<p>Navigate into the newly created folder:</p>
-<pre><code>cd newfolder</code></pre>
+    <h3>Step 3: Install Create React App (CRA)</h3>
+    <p>In the terminal, run the following command to install Create React App globally:</p>
+    <pre><code>npm install -g create-react-app</code></pre>
+    <p>To verify the installation, run:</p>
+    <pre><code>create-react-app --version</code></pre>
+    <p>The terminal should display the version of Create React App you installed.</p>
 
-<h3>Step 5: Create Your React App</h3>
-<p>Inside the folder, run the following command to create a new React app:</p>
-<pre><code>npx create-react-app reactfirst</code></pre>
-<p>Note: The app name must consist of only lowercase letters due to npm naming conventions.</p>
+    <h3>Step 4: Create a Directory for Your React Projects</h3>
+    <p>Create a new folder for your React app:</p>
+    <pre><code>mkdir newfolder</code></pre>
+    <p><strong>Note</strong>: You can replace newfolder with your preferred folder name.</p>
+    <p>Navigate into the newly created folder:</p <pre><code>cd newfolder</code></pre>
 
-<h3>Step 6: Open the Project in a Code Editor</h3>
-<p>Open your project folder in your preferred code editor (e.g., Visual Studio Code).<br>
-In the terminal, navigate to your app's directory:</p>
-<pre><code>cd reactfirst</code></pre>
+    <h3>Step 5: Create Your React App</h3>
+    <p>Inside the folder, run the following command to create a new React app:</p>
+    <pre><code>npx create-react-app reactfirst</code></pre>
+    <p><strong>Note</strong>: The app name must consist of only lowercase letters due to npm naming conventions.</p>
 
-<h3>Step 7: Run Your React App</h3>
-<p>Start the development server by running:</p>
-<pre><code>npm start</code></pre>
-<p>A new tab will open in your default web browser, displaying the React logo. Congratulations! You are now ready to start building applications with React.</p>
-<p>Screenshot of a successful creation of React App.</p>
+    <h3>Step 6: Open the Project in a Code Editor</h3>
+    <p>Open your project folder in your preferred code editor (e.g., <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>). In the terminal, navigate to your app's directory:</p>
+    <pre><code>cd reactfirst</code></pre>
 
-<h2>References:</h2>
-<ul>
-    <li><a href="https://www.hubspot.com/what-is-react" target="_blank">HubSpot: What is React.js?</a></li>
-    <li><a href="https://www.geeksforgeeks.org/features
+    <h3>Step 7: Run Your React App</h3>
+    <p>Start the development server by running:</p>
+    <pre><code>npm start</code></pre>
+    <p>A new tab will open in your default web browser, displaying the React logo. Congratulations! You are now ready to start building applications with React.</p>
+
+    <h2>References:</h2>
+    <ul>
+        <li><a href="https://developers.hubspot.com/blog/intro-to-react-for-hubspot-developers" target="_blank">HubSpot: What is React.js?</a></li>
+        <li><a href="https://www.geeksforgeeks.org/react/" target="_blank">GeeksforGeeks: Features of React.js</a></li>
+        <li><a href="https://www.geeksforgeeks.org/how-to-install-reactjs-on-windows/" target="_blank">GeeksforGeeks: How to Install React.js on Windows</a></li>
+    </ul>
+
+</body>
+</html>
